@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpu-scheduling-simulator"
+version = "1.0.0"
+description = "Dependency-free CPU scheduling simulator for operating systems courses"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[project.scripts]
+cpu-sim = "scheduler:main"
+
